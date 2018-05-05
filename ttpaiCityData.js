@@ -1,0 +1,422 @@
+window.GLOBAL_TTPAI_CITY = [{
+    label: "上海",
+    key: "上海",
+    value: 2,
+    business: !0,
+    pinyin: "shanghai",
+    abbr: "SH",
+    hot: !0
+}, {
+    label: "北京",
+    key: "北京",
+    value: 1,
+    business: !0,
+    pinyin: "beijing",
+    abbr: "BJ",
+    hostValue: 1,
+    hot: !0
+}, {
+    label: "广州",
+    key: "广州",
+    value: 1456,
+    business: !0,
+    pinyin: "guangzhou",
+    abbr: "GZ",
+    hostValue: 1456,
+    hot: !0
+}, {
+    label: "深圳",
+    key: "深圳",
+    value: 1457,
+    business: !0,
+    pinyin: "shenzhen",
+    abbr: "SZ",
+    hostValue: 1457,
+    hot: !0
+}, {
+    label: "成都",
+    key: "成都",
+    value: 1760,
+    business: !0,
+    pinyin: "chengdu",
+    abbr: "CD",
+    hostValue: 1760,
+    hot: !0
+}, {
+    label: "重庆",
+    key: "重庆",
+    value: 4,
+    business: !0,
+    pinyin: "chongqing",
+    abbr: "CQ",
+    hot: !0
+}, {
+    label: "天津",
+    key: "天津",
+    value: 3,
+    business: !0,
+    pinyin: "tianjin",
+    abbr: "TJ",
+    hot: !0
+}, {
+    label: "武汉",
+    key: "武汉",
+    value: 1231,
+    business: !0,
+    pinyin: "wuhan",
+    abbr: "WH",
+    hot: !1
+}, {
+    label: "苏州",
+    key: "苏州",
+    value: 581,
+    business: !0,
+    pinyin: "suzhou",
+    abbr: "SZ",
+    hostValue: 581,
+    hot: !0
+}, {
+    label: "杭州",
+    key: "杭州",
+    value: 865,
+    business: !0,
+    pinyin: "hangzhou",
+    abbr: "HZ",
+    hostValue: 865,
+    hot: !1
+}, {
+    label: "南京",
+    key: "南京",
+    value: 571,
+    business: !0,
+    pinyin: "nanjing",
+    abbr: "NJ",
+    hostValue: 571,
+    hot: !1
+}, {
+    label: "东莞",
+    key: "东莞",
+    value: 1465,
+    business: !0,
+    pinyin: "dongguan",
+    abbr: "DG",
+    hot: !1
+}, {
+    label: "佛山",
+    key: "佛山",
+    value: 1468,
+    business: !0,
+    pinyin: "foshan",
+    abbr: "FS",
+    hostValue: 1468,
+    hot: !1
+}, {
+    label: "宁波",
+    key: "宁波",
+    value: 866,
+    business: !0,
+    pinyin: "ningbo",
+    abbr: "NB",
+    hostValue: 866,
+    hot: !1
+}, {
+    label: "西安",
+    key: "西安",
+    value: 1974,
+    business: !0,
+    pinyin: "xian",
+    abbr: "XA",
+    hot: !1
+}, {
+    label: "合肥",
+    key: "合肥",
+    value: 652,
+    business: !0,
+    pinyin: "hefei",
+    abbr: "HF",
+    hot: !1
+}, {
+    label: "长沙",
+    key: "长沙",
+    value: 1121,
+    business: !0,
+    pinyin: "changsha",
+    abbr: "CS",
+    hot: !1
+}, {
+    label: "青岛",
+    key: "青岛",
+    value: 738,
+    business: !0,
+    pinyin: "qingdao",
+    abbr: "QD",
+    hot: !1
+}, {
+    label: "郑州",
+    key: "郑州",
+    value: 1315,
+    business: !0,
+    pinyin: "zhengzhou",
+    abbr: "ZZ",
+    hot: !1
+}, {
+    label: "南宁",
+    key: "南宁",
+    value: 1582,
+    business: !0,
+    pinyin: "nanning",
+    abbr: "NN",
+    hot: !1
+}, {
+    label: "昆山",
+    key: "昆山",
+    value: 581,
+    business: !1,
+    pinyin: "kunshan",
+    abbr: "KS",
+    hot: !1
+}, {
+    label: "惠州",
+    key: "惠州",
+    value: 1457,
+    business: !0,
+    pinyin: "huizhou",
+    abbr: "HZ",
+    hostValue: 1457,
+    hot: !1
+}, {
+    label: "滁州",
+    key: "滁州",
+    value: 571,
+    business: !1,
+    pinyin: "chuzhou",
+    abbr: "CZ",
+    hostValue: 571,
+    hot: !1
+}, {
+    label: "珠海",
+    key: "珠海",
+    value: 1456,
+    business: !0,
+    pinyin: "zhuhai",
+    abbr: "ZH",
+    hostValue: 1456,
+    hot: !1
+}, {
+    label: "中山",
+    key: "中山",
+    value: 1456,
+    business: !0,
+    pinyin: "zhongshan",
+    abbr: "ZS",
+    hostValue: 1456,
+    hot: !1
+}, {
+    label: "绍兴",
+    key: "绍兴",
+    value: 870,
+    business: !0,
+    pinyin: "shaoxing",
+    abbr: "SX",
+    hostValue: 865,
+    hot: !1
+}, {
+    label: "都江堰",
+    key: "都江堰",
+    value: 11401,
+    business: !1,
+    pinyin: "dujiangyan",
+    abbr: "DJY",
+    hostValue: 1760,
+    hot: !1
+}, {
+    label: "廊坊",
+    key: "廊坊",
+    value: 234,
+    business: !1,
+    pinyin: "langfang",
+    abbr: "LF",
+    hostValue: 1,
+    hot: !1
+}, {
+    label: "慈溪",
+    key: "慈溪",
+    value: 5302,
+    business: !1,
+    pinyin: "cixi",
+    abbr: "CX",
+    hostValue: 866,
+    hot: !1
+}, {
+    label: "余姚",
+    key: "余姚",
+    value: 5301,
+    business: !1,
+    pinyin: "yuyao",
+    abbr: "YY",
+    hostValue: 866,
+    hot: !1
+}, {
+    label: "常熟",
+    key: "常熟",
+    value: 4001,
+    business: !1,
+    pinyin: "changshu",
+    abbr: "CS",
+    hostValue: 581,
+    hot: !1
+}, {
+    label: "句容",
+    key: "句容",
+    value: 4903,
+    business: !1,
+    pinyin: "jurong",
+    abbr: "JR",
+    hostValue: 571,
+    hot: !1
+}, {
+    label: "太原",
+    key: "太原",
+    value: 111,
+    business: !0,
+    pinyin: "taiyuan",
+    abbr: "TY",
+    hot: !1
+}, {
+    label: "温州",
+    key: "温州",
+    value: 867,
+    business: !0,
+    pinyin: "wenzhou",
+    abbr: "WZ",
+    hot: !1
+}, {
+    label: "南昌",
+    key: "南昌",
+    value: 949,
+    business: !0,
+    pinyin: "nanchang",
+    abbr: "NC",
+    hot: !1
+}, {
+    label: "厦门",
+    key: "厦门",
+    value: 1048,
+    business: !0,
+    pinyin: "xiamen",
+    abbr: "XM",
+    hot: !1
+}, {
+    label: "无锡",
+    key: "无锡",
+    value: 580,
+    business: !0,
+    pinyin: "wuxi",
+    abbr: "WX",
+    hot: !1
+}, {
+    label: "沈阳",
+    key: "沈阳",
+    value: 372,
+    business: !0,
+    pinyin: "shenyang",
+    abbr: "SY",
+    hot: !1
+}, {
+    label: "昆明",
+    key: "昆明",
+    value: 1846,
+    business: !0,
+    pinyin: "kunming",
+    abbr: "KM",
+    hostValue: 581,
+    hot: !1
+}, {
+    label: "嘉兴",
+    key: "嘉兴",
+    value: 868,
+    business: !0,
+    pinyin: "jiaxing",
+    abbr: "JX",
+    hot: !1
+}, {
+    label: "金华",
+    key: "金华",
+    value: 871,
+    business: !0,
+    pinyin: "jinhua",
+    abbr: "JH",
+    hot: !1
+}, {
+    label: "南通",
+    key: "南通",
+    value: 577,
+    business: !0,
+    pinyin: "nantong",
+    abbr: "NT",
+    hot: !1
+}, {
+    label: "常州",
+    key: "常州",
+    value: 579,
+    business: !0,
+    pinyin: "changzhou",
+    abbr: "CZ",
+    hot: !1
+}, {
+    label: "济南",
+    key: "济南",
+    value: 737,
+    business: !0,
+    pinyin: "jinan",
+    abbr: "JN",
+    hot: !1
+}, {
+    label: "大连",
+    key: "大连",
+    value: 373,
+    business: !0,
+    pinyin: "dalian",
+    abbr: "DL",
+    hot: !1
+}, {
+    label: "义乌",
+    key: "义乌",
+    value: 881,
+    business: !0,
+    pinyin: "yiwu",
+    abbr: "YW",
+    hot: !1
+}, {
+    label: "临沂",
+    key: "临沂",
+    value: "",
+    business: !0,
+    pinyin: "linyi",
+    abbr: "LY",
+    hot: !1
+}, {
+    label: "台州",
+    key: "台州",
+    value: "945",
+    business: !0,
+    pinyin: "taizhou",
+    abbr: "TZ",
+    hot: !1
+}, {
+    label: "泉州",
+    key: "泉州",
+    value: "1051",
+    business: !0,
+    pinyin: "quanzhou",
+    abbr: "QZ",
+    hot: !1
+}, {
+    label: "石家庄",
+    key: "石家庄",
+    value: "225",
+    business: !0,
+    pinyin: "shijiazhuang",
+    abbr: "SJZ",
+    hot: !1
+}];

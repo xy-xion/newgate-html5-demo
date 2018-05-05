@@ -2117,7 +2117,7 @@
 			value: function getCity() {
 				var self = this,
 				    cityName = "",
-				    ttpaicity = "http://cdn01.ttpaicdn.com/ttpai/js/ttpaicity.min.js?v=" + new Date().getTime();
+				    ttpaicity = "https://cdn01.ttpaicdn.com/ttpai/js/ttpaicity.min.js?v=" + new Date().getTime();
 
 				window.GLOBAL_TTPAI_CITY = self.getStorage('GLOBAL_TTPAI_CITY');
 				window.GLOBAL_TTPAI_CITY_COPY = self.deepCopyArray(window.GLOBAL_TTPAI_CITY);
@@ -10309,7 +10309,7 @@
 
 	            //选择当前某个成交状态后遮罩层和下拉菜单隐藏
 	            changeTabIndex({ currentTabIndex: null });
-	            isClickTab(false);;
+	            isClickTab(false);
 	            isClickDropContentCloseBtn(null);
 	        }
 	    }, {
